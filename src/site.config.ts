@@ -68,25 +68,17 @@ export type SiteConfig = {
 };
 
 const siteConfig: SiteConfig = {
-    website: 'https://example.com',
+    website: 'https://github.com/D1dii',
     title: 'Dídac García',
-    description: 'A minimal space-inspired personal blog template built with Astro.js and Tailwind CSS, by Siddhesh Thadeshwar',
-    image: {
-        src: '/space-ahead-preview.jpeg',
-        alt: 'Space Ahead ✨ - A minimal space-inspired personal blog template, created by Siddhesh Thadeshwar.'
-    },
+    description: 'My Portfolio',
     headerNavLinks: [
         {
             text: 'Home',
             href: withBase('/')
         },
         {
-            text: 'Blog',
+            text: 'My Projects',
             href: withBase('/blog')
-        },
-        {
-            text: 'Tags',
-            href: withBase('/tags')
         },
         {
             text: 'About',
@@ -106,47 +98,20 @@ const siteConfig: SiteConfig = {
             text: 'Contact',
             href: withBase('/contact')
         },
-        {
-            text: 'RSS Feed',
-            href: withBase('/rss.xml')
-        },
-                {
-            text: 'Sitemap',
-            href: withBase('/sitemap-index.xml')
-        }
     ],
     socialLinks: [
         {
-            text: 'Dribbble',
+            text: 'LinkedIn',
             href: 'https://dribbble.com/'
         },
-        {
-            text: 'Instagram',
-            href: 'https://instagram.com/'
-        },
-        {
-            text: 'X/Twitter',
-            href: 'https://twitter.com/'
-        }
     ],
     hero: {
-        eyebrowText: 'Galaxy of Adventures',
-        title: 'Space Ahead ✨',
-        text: "Written by Astro-naut Sid, a space explorer at Beyond Earth.",
+        title: 'Dídac García',
+        text: "I am a young game developer with a strong desire to learn and create unique projects.",
         image: {
             src: '/assets/images/pixeltrue-space-discovery.svg',
             alt: 'A person sitting at a desk in front of a computer'
         },
-        actions: [
-            {
-                text: 'Read Now',
-                href: withBase('/blog')
-            },
-            {
-                text: 'Subscribe',
-                href: '#subscribe'
-            }
-        ]
     },
     about: {
         title: 'About',
