@@ -140,11 +140,6 @@ const siteConfig: SiteConfig = {
             }
         ]
     },
-    subscribe: {
-        title: 'Subscribe to Space Ahead',
-        text: 'One update per week. All the latest stories in your inbox.',
-        formUrl: '#'
-    },
     blog: {
         description: "Read about my space adventures, explorations and the aliens I've met on my journeys."
     },
