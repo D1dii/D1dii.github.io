@@ -74,29 +74,29 @@ const siteConfig: SiteConfig = {
     headerNavLinks: [
         {
             text: 'Home',
-            href: withBase('/')
+            href: '/'
         },
         {
             text: 'My Projects',
-            href: withBase('/blog')
+            href: '/blog'
         },
         {
             text: 'About',
-            href: withBase('/about')
+            href: '/about'
         },
         {
             text: 'Contact',
-            href: withBase('/contact')
+            href: '/contact'
         }
     ],
     footerNavLinks: [
         {
             text: 'About',
-            href: withBase('/about')
+            href: '/about'
         },
         {
             text: 'Contact',
-            href: withBase('/contact')
+            href: '/contact'
         },
     ],
     socialLinks: [
