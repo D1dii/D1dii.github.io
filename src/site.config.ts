@@ -115,7 +115,7 @@ const siteConfig: SiteConfig = {
     },
     about: {
         title: 'About',
-        text: 'Space Ahead is a blog about space exploration and travel. It is written by Astro-naut Sid, a space explorer at Beyond Earth. Sid is known for his love of adventure and his insatiable curiosity about the universe. He has explored countless planets, discovered new life forms, and made friends with aliens along the way. 🚀',
+        text: 'Videogame developer, current student of Video Game Design and Development at UPC CITM University in Barcelona. Due to the different projects I have worked on I have become highly adaptable to different environments and capable of performing in a wide range of areas, with a strong focus on computer science. Passionate about acquiring new skills and applying them to contribute to the team’s success.',
     },
     contactInfo: {
         title: 'Contact',
@@ -140,8 +140,8 @@ const siteConfig: SiteConfig = {
             }
         ]
     },
-    blog: {
-        description: "Read about my space adventures, explorations and the aliens I've met on my journeys."
+    My Projects: {
+        description: "These are my personal projects I have worked on"
     },
     postsPerPage: 2,
     recentPostLimit: 3
