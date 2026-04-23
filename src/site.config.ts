@@ -78,7 +78,7 @@ const siteConfig: SiteConfig = {
         },
         {
             text: 'My Projects',
-            href: '/My Projects'
+            href: '/blog'
         },
         {
             text: 'About',
@@ -140,7 +140,7 @@ const siteConfig: SiteConfig = {
             }
         ]
     },
-    My Projects: {
+    blog: {
         description: "These are my personal projects I have worked on"
     },
     postsPerPage: 2,
