@@ -26,3 +26,5 @@ increase until your game over!
 
 During this project I was in charge of designing some of the different mini-games, as well as 
 programming the logic of the Hotel controls and the algorithm of the appearance of the incidents.
+
+If you want to download it, it's published in my itch.io: https://d1dii.itch.io/altered-hotel
