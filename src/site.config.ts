@@ -110,7 +110,7 @@ const siteConfig: SiteConfig = {
         title: 'Dídac García',
         text: "I am a young game developer with a strong desire to learn and create unique projects.",
         image: {
-            src: '/assets/images/PFP.jpg',
+            src: '/assets/images/FotoDidi.jpg',
             alt: 'A person sitting at a desk in front of a computer'
         },
     },

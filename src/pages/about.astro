@@ -2,14 +2,14 @@
 import { Image } from "astro:assets";
 import MainLayout from "../layouts/MainLayout.astro";
 import siteConfig from "../site.config";
-import coverImage from "../assets/images/PFP.jpg";
+import coverImage from "../assets/images/FotoDidi.jpg";
 ---
 
 <MainLayout activePage="about" pageTitle={siteConfig.title + " | About"}>
   <div class="page-content">
     <h1 class="sigmar-ff text-balance">{siteConfig.about?.title}</h1>
     <Image
-      width={1024}
+      width={500}
       height={600}
       loading="eager"
       layout="constrained"
