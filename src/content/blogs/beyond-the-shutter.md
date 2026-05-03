@@ -21,3 +21,5 @@ that has the ability to delete some of the obstacles on your paths!
 
 During the development of this project I was in charge of programming the procedural generation of the obstacles and the
 design of some of the different obstacles that can appear.
+
+If you want to download it, it's published in my itch.io: https://d1dii.itch.io/beyond-the-shutter

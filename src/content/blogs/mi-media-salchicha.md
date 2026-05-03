@@ -24,3 +24,5 @@ This game was awarded the Best Design Award at the 9th CITM GameJam as well as 2
 
 During this project I was in charge of developing the player controllers and all the different obstacles. I also
 designed several levels of the game such as the level 10 and 15.
+
+If you want to download it, it's published in my itch.io: https://lazy-gamedev.itch.io/mi-media-salchicha
