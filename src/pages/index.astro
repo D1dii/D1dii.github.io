@@ -5,8 +5,6 @@ import siteConfig from "../site.config";
 import { sortItemsByDateDesc, withBase } from "../utils/helpers";
 import PostCardPreview from "../components/PostCardPreview.astro";
 import Button from "../components/Button.astro";
-import { Image } from "astro:assets";
-import heroImage from "../assets/images/Icon.png";
 import ArrowRight from "../icons/ArrowRight.astro";
 
 const allPosts = (await getCollection("blogs")).sort(sortItemsByDateDesc);
@@ -17,7 +15,7 @@ const allPosts = (await getCollection("blogs")).sort(sortItemsByDateDesc);
   pageTitle={siteConfig.title + " | An Astro Personal Blog Template"}
 >
   <div
-    class="jumbo-banner flex flex-col sm:flex-row sm:items-center sm:justify-between w-full px-4 my-12 gap-6"
+    class="jumbo-banner flex flex-col items-center justify-center w-full px-4 my-12 text-center"
   >
     <div class="w-full sm:w-fit sm:max-w-1/2">
       {
@@ -47,16 +45,6 @@ const allPosts = (await getCollection("blogs")).sort(sortItemsByDateDesc);
           ))
         }
       </div>
-    </div>
-    <div class="w-full sm:w-fit sm:max-w-1/2">
-      <!-- {siteConfig.hero?.image && <Image src={siteConfig.hero?.image?.src} alt={siteConfig.hero?.image?.alt || ""} inferSize={true} />} -->
-      <Image
-        class="cover-img"
-        src={heroImage}
-        alt={"Astronaut in space"}
-        width={300}
-        height={300}
-      />
     </div>
   </div>
   <div class="page-content">
