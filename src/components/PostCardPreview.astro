@@ -7,9 +7,12 @@ import { withBase } from "../utils/helpers";
 type Props = { post: CollectionEntry<"blogs"> };
 const { post } = Astro.props;
 const { title, pubDate, description, image } = post.data;
+
+// 🚀 LIMPIAMOS EL ID: Le quitamos el .md si lo tiene
+const cleanId = post.id.replace(/\.md$/, "");
 ---
 
-<a class="font-bold" href={withBase("/blog/" + post.id)}>
+<a class="font-bold" href={withBase(`/blog/${cleanId}/`)}>
   <div class="flex flex-col sm:flex-row gap-2 sm:gap-4">
     {
       image && image.url && (
