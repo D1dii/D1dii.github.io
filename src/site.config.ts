@@ -72,7 +72,7 @@ const siteConfig: SiteConfig = {
     title: 'Dídac García',
     description: 'My Portfolio',
     image: {
-        src: '/images/space-ahead-logo.png',
+        src: '/space-ahead-logo.png',
         alt: 'My Portfolio'
     },
     headerNavLinks: [
