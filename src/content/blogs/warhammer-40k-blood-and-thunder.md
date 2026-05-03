@@ -5,7 +5,7 @@ author: "Dídac García"
 image:
   url: "../../assets/images/WAR.png"
   alt: "Warhammer 40K: Blood and Thunder Cover"
-pubDate: 2025-6-15
+pubDate: 2025-06-15
 ---
 
 ## What's Warhammer 40K: Blood and Thunder?
