@@ -116,7 +116,7 @@ const siteConfig: SiteConfig = {
     },
     about: {
         title: 'About',
-        text: 'Videogame developer, current student of Video Game Design and Development at UPC CITM University in Barcelona. Due to the different projects I have worked on I have become highly adaptable to different environments and capable of performing in a wide range of areas, with a strong focus on computer science. Passionate about acquiring new skills and applying them to contribute to the team’s success.',
+        text: 'My name is Dídac García, I am a videogame developer, current student of Video Game Design and Development at UPC CITM University in Barcelona. Due to the different projects I have worked on I have become highly adaptable to different environments and capable of performing in a wide range of areas, with a strong focus on computer science. Passionate about acquiring new skills and applying them to contribute to the team’s success.',
     },
     contactInfo: {
         title: 'Contact',
