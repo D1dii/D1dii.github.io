@@ -50,6 +50,9 @@ const { Content } = await render(post);
         <Image class="mb-8 my-6" src={image?.url} alt={image?.alt || ""} />
       )
     }
+    <div class="font-light text-left">
+      <Content />
+    </div>
     <div
       class="flex flex-col sm:flex-row items-center justify-center gap-4 my-8"
     >
