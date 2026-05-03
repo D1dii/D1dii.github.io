@@ -1,6 +1,6 @@
 ---
-title: "First Adventure on Mars"
-description: "This is the first post of my new blog."
+title: "Altered Hotel"
+description: "My first GameJam. "
 author: "Astro-naut Sid"
 image:
   url: "../../assets/images/1.png"
