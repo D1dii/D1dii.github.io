@@ -68,9 +68,10 @@ export type SiteConfig = {
 };
 
 const siteConfig: SiteConfig = {
-    website: 'https://github.com/D1dii',
+    website: 'https://d1dii.github.io/',
     title: 'Dídac García',
     description: 'My Portfolio',
+    image: ,
     headerNavLinks: [
         {
             text: 'Home',
@@ -143,7 +144,7 @@ const siteConfig: SiteConfig = {
     blog: {
         description: "These are my personal projects I have worked on"
     },
-    postsPerPage: 2,
+    postsPerPage: 5,
     recentPostLimit: 3
 };
 
