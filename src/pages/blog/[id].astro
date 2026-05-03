@@ -75,7 +75,7 @@ const { Content } = await render(post);
         (prevPost || nextPost) && nextPost && (
           <Button
             class="back-link text-balance"
-            href={withBase("/blog/" + nextPost.id)}
+            href={withBase(`blog/${nextPost.id.replace(/\.md$/, "")}/`)}
           >
             Next Post: {nextPost.data.title}{" "}
             <ArrowRight class="w-5 h-5 fill-current ml-4" />
