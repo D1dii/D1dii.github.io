@@ -17,6 +17,7 @@ Which decisions are you going to make that will affect the story?
 This game mixes turn-based combat with visual novels to bring you a unique experience.
 
 ![Screenshot of the gameplay mechanics](../../assets/images/OOJ_1.png)
+
 ![Screenshot of the gameplay mechanics](../../assets/images/OOJ_2.png)
 
 ## What was my work?
