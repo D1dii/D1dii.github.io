@@ -71,7 +71,10 @@ const siteConfig: SiteConfig = {
     website: 'https://d1dii.github.io/',
     title: 'Dídac García',
     description: 'My Portfolio',
-    image: ,
+    image: {
+        src: '/space-ahead-logo.png',
+        alt: 'My Portfolio'
+    },
     headerNavLinks: [
         {
             text: 'Home',
