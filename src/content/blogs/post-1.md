@@ -8,7 +8,7 @@ image:
 pubDate: 2023-10-26
 ---
 
-Welcome to my _new blog_ about space exploration! Here, I will share my learning journey about the universe around us.
+Altered Hotel is a videogame inspired in Wario Ware, where you will need to solve many mini-games in a short time.
 
 ## What I've accomplished
 
