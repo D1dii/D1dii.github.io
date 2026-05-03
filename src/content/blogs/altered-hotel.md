@@ -17,7 +17,8 @@ Solve all the problems that your clients have in order to keep the hotel as calm
 
 To achieve that objective you will have to solve many mini-games, however there is a twist!
 The mini-games will appear constantly and simultaneausly! If you are too slow completing them,
-you will be overwhelmed by all the mini-games appearing on your screen!
+you will be overwhelmed by all the mini-games appearing on your screen and the chaosmeter will
+increase until your game over!
 
 ![Screenshot of the gameplay mechanics](../../assets/images/Minigames.png)
 
