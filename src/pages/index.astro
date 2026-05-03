@@ -30,12 +30,12 @@ const allPosts = (await getCollection("blogs")).sort(sortItemsByDateDesc);
         {siteConfig.hero?.title}
       </h1>
       
-      <p class="kanit-regular text-balance text-xs sm:text-base mt-8">
+      <p class="kanit-regular text-balance text-xs sm:text-base mt-2">
         {siteConfig.hero?.text}
       </p>
       
       <div
-        class="flex flex-wrap items-center text-xs sm:text-base gap-x-2 gap-y-8 mt-3 sm:mt-4"
+        class="flex flex-wrap items-center text-xs sm:text-base gap-x-2 gap-y-8 mt-3 sm:mt-2"
       >
         {
           siteConfig.hero?.actions?.map((action, index) => (
