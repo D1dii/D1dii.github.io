@@ -104,16 +104,13 @@ const siteConfig: SiteConfig = {
         },
     ],
     socialLinks: [
-        {
-            text: 'LinkedIn',
-            href: 'https://dribbble.com/'
-        },
+    
     ],
     hero: {
         title: 'Dídac García',
         text: "I am a young game developer with a strong desire to learn and create unique projects.",
         image: {
-            src: '/assets/images/pixeltrue-space-discovery.svg',
+            src: '/assets/images/PFP.jpg',
             alt: 'A person sitting at a desk in front of a computer'
         },
     },
@@ -123,24 +120,20 @@ const siteConfig: SiteConfig = {
     },
     contactInfo: {
         title: 'Contact',
-        text: "Hi! Whether you have a question, a suggestion, or just want to share your thoughts, I'm all ears. Feel free to get in touch through any of the methods below:",
+        text: "Hi! If you want to contact me for any reason, use my e-mail! Down below you have all my links:",
         email: {
             text: "Drop me an email and I’ll do my best to respond as soon as possible.",
-            href: "mailto:example@example.com",
-            email: "example@example.com"
+            href: "mailto:didacgp123@gmail.com",
+            email: "didacgp123@gmail.com"
         },
         socialProfiles: [
             {
-                text: "LinkedIn",
-                href: "https://www.linkedin.com/"
-            },
-            {
-                text: "Peerlist",
-                href: "https://www.peerlist.io/"
+                text: "Itchio",
+                href: "https://d1dii.itch.io/"
             },
             {
                 text: "GitHub",
-                href: "https://github.com/"
+                href: "https://github.com/D1dii"
             }
         ]
     },
